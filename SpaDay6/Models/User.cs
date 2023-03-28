@@ -10,7 +10,7 @@
         public string VerifyPassword { get; set; }
         
 
-        public User()
+        public User()  ///have to have blank constructor or you will get user error "null....something something"
         {
             Id = nextId;
             nextId++;
